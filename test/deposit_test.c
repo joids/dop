@@ -5,7 +5,7 @@
 
 CTEST(disc_test, D_pol)
 {
-	const float a = 4;
+	const float a = -1;
 	const float b = 2;
 	const float c = 1;
 
