@@ -13,8 +13,13 @@ int main(){
 	scanf("%f", &c);
 
 	d = D(a, b, c);
+	
+	if(a = 0){
+		printf("Уравнение вида bx+c\n");
+		x1 = XX(c, b);
+	}
 
-	if (d < 0)
+	else if (d < 0)
 	{
 		printf("Переменная ниже нуля\n");
 	}
