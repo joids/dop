@@ -18,6 +18,12 @@ int main(){
 		printf("Уравнение вида bx+c\n");
 		x1 = XX(c, b);
 	}
+	
+	if((b == 0) && ((c < 0) || (a < 0)){
+		printf("Уравнение вида ax^2+c\n");
+		x1 = (-1)*(XX2(a, c));
+		x2 = XX2(a, c);
+	}
 
 	else if (d < 0)
 	{
