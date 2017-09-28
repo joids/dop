@@ -47,7 +47,6 @@ CTEST(x_test, d_equal_zero)
 
 CTEST(x_test, d_equal)
 {
-	const float a = 0;
 	const float b = 2;
 	const float c = 6;
 
