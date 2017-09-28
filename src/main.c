@@ -14,7 +14,11 @@ int main(){
 
 	d = D(a, b, c);
 	
-	if(a == 0){
+	if((a == 0) && (b == 0)){
+		printf("Нет корней\n");
+	}
+
+	else if(a == 0){
 		printf("Уравнение вида bx+c\n");
 		x1 = XX(c, b);
 	}
