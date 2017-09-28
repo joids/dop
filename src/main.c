@@ -19,7 +19,7 @@ int main(){
 		x1 = XX(c, b);
 	}
 	
-	else if((b == 0) && ((c < 0) || (a < 0)){
+	else if((b == 0) && ((c < 0) || (a < 0))){
 		printf("Уравнение вида ax^2+c\n");
 		x1 = (-1)*(XX2(a, c));
 		x2 = XX2(a, c);
